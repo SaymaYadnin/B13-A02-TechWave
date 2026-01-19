@@ -84,6 +84,13 @@ font-style: normal;
    cursor: pointer;
 }
 
+/* using for title h1 tag */
+.section-title{
+   font-size: 3rem;
+   font-weight: 700;
+   margin-bottom: 40px;
+}
+
 /* header styles */
 
 /* navbar related style */
@@ -118,7 +125,7 @@ font-style: normal;
    background-size: cover;    /*use it cover the whole section */
    background-position: center; /*Center the image*/
    background-repeat: no-repeat;
-   padding: 40px 480px;
+   padding: 100px 520px;
    /* border: 2px solid red; */
 }
 .banner {
@@ -212,6 +219,39 @@ font-style: normal;
    justify-content: center;
    align-items: center;
    gap: 8px;
+}
+/* main section */
+
+/* about section */
+.about{
+   background-color: rgba(26, 11, 46, 1);
+   /* border: 2px solid red; */
+}
+.about .about-container{
+   /* border: 2px solid rgb(35, 196, 155); */
+   max-width: 1200px;
+   margin: 0 auto;
+   text-align: center;
+   padding: 50px 200px 120px;
+}
+.about-content p{
+   font-size: 1rem;
+   line-height: 20px;
+   margin-bottom: 80px;
+}
+.about .about-container .about-info{
+   justify-content: space-between;
+   margin-top: 80px;
+}
+.about-info .info-card h1 {
+   font-size: 3rem;
+   font-weight: 900;
+   margin-bottom: 16px;
+   text-align: center;
+}
+.about-info .info-card p {
+   font-size: 1rem;
+   text-align: center;
 }
 
 
