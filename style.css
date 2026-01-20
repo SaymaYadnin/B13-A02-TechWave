@@ -366,7 +366,7 @@ font-style: normal;
 .episode .episode-container {
    max-width: 1200px;
    margin: 0 auto;
-   border: 2px solid red;
+   /* border: 2px solid red; */
 }
 .episode .episode-container .episode-content h1{
    text-align: center;
@@ -412,4 +412,42 @@ font-style: normal;
    font-size: 1rem;
    font-weight: 600;
    line-height: 20px;
+}
+
+/* Meet the Host Style */
+.host{
+   padding: 0 200px 120px;
+}
+.host .host-container{
+   max-width: 1200px;
+   margin: 0 auto;
+   /* border: 2px solid red; */
+}
+.host .host-container .host-content h1{
+   text-align: center;
+}
+.host-card{
+   /* border: 2px solid red; */
+   justify-content: center;
+   align-items: center;
+   padding: 40px 40px;
+   border-radius: 40px;
+   gap: 30px;
+}
+.host-card .card-img img{
+   width: 200px;
+   height: 200px;
+}
+.host-card .card-content h2{
+   font-size: 2rem;
+   font-weight: 700;
+   margin-bottom: 16px;
+}
+.host-card .card-content p{
+   font-size: 1rem;
+   line-height: 24px;
+   margin-bottom: 16px;
+}
+.host-card .card-content .icons img{
+   margin-right: 8px;
 }
