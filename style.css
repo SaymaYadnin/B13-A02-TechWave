@@ -91,6 +91,11 @@ font-style: normal;
    margin-bottom: 40px;
 }
 
+/* grid containers padding and area*/
+.choose-grid-container>*{
+   padding: 40px;
+}
+
 /* header styles */
 
 /* navbar related style */
@@ -221,12 +226,13 @@ font-style: normal;
    gap: 8px;
 }
 /* main section */
-
 /* about section */
+
+/* already about section er class e background color er jonno bg-1 class add kora hoyese
 .about{
    background-color: rgba(26, 11, 46, 1);
-   /* border: 2px solid red; */
-}
+   border: 2px solid red;
+} */
 .about .about-container{
    /* border: 2px solid rgb(35, 196, 155); */
    max-width: 1200px;
@@ -254,4 +260,102 @@ font-style: normal;
    text-align: center;
 }
 
+/* choose section */
+.choose{
+   padding: 120px 200px;
+}
+.choose .choose-container {
+   /* border: 2px solid rgb(35, 196, 155); */
+   max-width: 1200px;
+   margin: 0 auto;
+   text-align: center;
+   /*  */
+}
 
+/* define grid area */
+.grid-1{
+   grid-area: audio;
+}
+.grid-2{
+   grid-area: phone;
+}
+.grid-3{
+   grid-area: global;
+}
+.grid-4{
+   grid-area: interview;
+}
+.grid-5{
+   grid-area: resource;
+}
+.choose-grid-container{
+   display: grid;
+   gap: 30px;
+   grid-template-areas:
+   "audio      phone     phone"
+   "audio      global     global"
+   "interview  interview  resource";
+}
+/* .choose-grid-container .grid-1 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: left;
+   border-radius: 40px; /* vertically align kore
+} */
+
+
+/* choose section er shared styles */
+/* choose-grid-container er sob grid-$ class er jonno */
+.grid-card-design{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: left;
+   border-radius: 40px; /* vertically align kore*/
+}
+
+/* .choose-grid-container .grid-1 .grid-img {
+   width: 100%;
+}*/
+/*grid-img class er jonno */
+.grid-img-width {
+   width: 100%;
+}
+/* .choose-grid-container .grid-1 .grid-img img {
+   width: 60px;
+   height: 60px;
+   margin-bottom: 16px;
+} */
+/* img tag er vitore class adding */
+.grid-img-margin {
+   width: 60px;
+   height: 60px;
+   margin-bottom: 16px;
+}
+/* .choose-grid-container .grid-1 h2 {
+   font-size: 1.5rem;
+   font-weight: 700;
+   align-self: flex-start;
+   margin-bottom: 16px;
+} */
+/* h2 tag er jonno */
+.grid-h2 {
+   font-size: 1.5rem;
+   font-weight: 700;
+   align-self: flex-start;
+   margin-bottom: 16px;
+}
+/* .choose-grid-container .grid-1 p {
+   font-size: 1rem;
+   line-height: 24px;
+   text-align: left;
+} */
+/* p tag er jonno */
+.grid-p {
+   font-size: 1rem;
+   line-height: 24px;
+   align-self: flex-start;
+}
