@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-02</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./style.css">
 </head>
 <body class="inter-font">
@@ -23,7 +25,7 @@
             <li class="nav-item"><a href="" class="nav-link text-white-90">Host</a></li>
             </ul>
 
-            <button class="btn btn-bg-color-1 text-white">Subscribe</button>
+            <button class="btn btn-bg-color-1 text-white">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
             </div>
             <hr class="divider">
 
@@ -47,9 +49,9 @@
                 <p class="text-white-80">Your daily dose of tech insights, productivity hacks, and personal growth</p>
             </div>
             <div class="dual-btn">
-                <button class="btn btn-bg-color-1 text-white">Listen on Spotify
+                <button class="btn btn-bg-color-1 text-white"><i class="fa-brands fa-spotify"></i> Listen on Spotify
                 </button>
-                <button class="btn-stroke txt-green">Subscribe</button>
+                <button class="btn-stroke txt-green"><i class="fa-regular fa-envelope"></i> Subscribe</button>
             </div>
         </div>
         </section>
@@ -158,7 +160,14 @@
                 <div class="episode-card">
 
                     <div class="card bg-2">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/oX7OduG1YmI?si=wYs-zmKozEcVFsQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="iframe-wrapper">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/oX7OduG1YmI?si=wYs-zmKozEcVFsQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                            <div class="pause-overlay">
+                                <img src="assets/play-pause.svg" alt="">
+                            </div>
+
+                        </div>
                         
                         <div class="card-content">
                             <h2 class="text-white">The Future of AI in Everyday Life</h2>
@@ -172,7 +181,13 @@
                     </div>
 
                     <div class="card bg-2">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ObA4ne4TVsE?si=enGxXrhMKgNzxnhr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="iframe-wrapper">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ObA4ne4TVsE?si=enGxXrhMKgNzxnhr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                            <div class="pause-overlay">
+                                <img src="assets/play-pause.svg" alt="">
+                            </div>
+                        </div>
                         
                         <div class="card-content">
                             <h2 class="text-white">Building Better Habits for Remote Work</h2>
@@ -186,7 +201,13 @@
                     </div>
 
                     <div class="card bg-2">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fZmQ_aPXJAM?si=n_Ju0i1V019zM9jf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="iframe-wrapper">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/fZmQ_aPXJAM?si=n_Ju0i1V019zM9jf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                            <div class="pause-overlay">
+                                <img src="assets/play-pause.svg" alt="">
+                            </div>
+                        </div>
                         
                         <div class="card-content">
                             <h2 class="text-white">Career Growth in Tech: A Roadmap</h2>
@@ -219,20 +240,51 @@
                         <h2 class="text-white">Alex Kumar</h2>
                         <p class="text-white-80">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
                     <div class="icons">
-                        <img src="assets/linkedin.svg" alt="">
-                        <img src="assets/x.svg" alt="">
-                        <img src="assets/insta.svg" alt="">
-                        <img src="assets/youtube.svg" alt="">
+                        <a href=""><img src="assets/linkedin.svg" alt=""></a>
+                        <a href=""><img src="assets/x.svg" alt=""></a>
+                        <a href=""><img src="assets/insta.svg" alt=""></a>
+                        <a href=""><img src="assets/youtube.svg" alt=""></a>
                     </div>
                     </div>
                 </div>
             </div>
         </section>
-
     </main>
 
     <footer>
+        <section class="footer">
+            <div class="footer-container">
+                <div class="logo">
+                    <img src="assets/TechWave-big.svg" alt="">
+                </div>
+            
+                <div class="icons display-flex">
+                    <div class="img-txt display-flex">
+                        <a href=""><img src="assets/spotify.png" alt=""></a>
+                        <p class="text-white-80">Spotify</p>
+                    </div>
 
+                    <div class="img-txt display-flex">
+                        <a href=""><img src="assets/apple-podcast.png" alt=""></a>
+                        <p class="text-white-80">Apple Podcasts</p>
+                    </div>
+
+                    <div class="img-txt display-flex">
+                        <a href=""><img src="assets/youtube-podcast.png" alt=""></a>
+                        <p class="text-white-80">YouTube</p>
+                    </div>
+
+                    <div class="img-txt display-flex">
+                        <a href=""><img src="assets/twitter.png" alt=""></a>
+                        <p class="text-white-80">Twitter</p>
+                    </div>
+                </div>
+
+                <div class="copyright text-white-80">
+                    <p>&copy; 2026 TechWave Podcast. All rights reserved. </p>
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
